@@ -52,7 +52,7 @@ ICON_PHONE = "https://cdn-icons-png.flaticon.com/512/597/597177.png"
 ICON_PDF = "https://cdn-icons-png.flaticon.com/512/337/337946.png"
 
 # ------------------ Page setup ------------------
-st.set_page_config(page_title=f"{NAME} — Portfolio", layout="wide", initial_sidebar_state="auto", page_icon="💼")
+st.set_page_config(page_title=f"{NAME} — Portfolio", layout="wide", initial_sidebar_state="expanded", page_icon="💼")
 
 # ------------------ Helpers ------------------
 def file_to_base64(path: Path):
